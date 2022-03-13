@@ -1,0 +1,31 @@
+.card{
+    width: 18rem;
+    height: 190px;
+    background-color: #f1ebeb;
+    overflow: hidden;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.card-image{
+    height: 100% !important;
+    object-fit: cover;
+}
+.card-body{
+    position: absolute;
+    color: white;
+    bottom: -50px;
+}
+.card:hover .card-body{
+    bottom: -6px;
+    transition: all .3s linear;
+}
+.row > .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
